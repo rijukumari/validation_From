@@ -21,7 +21,7 @@ const singInUser = (req,res) =>{
         if(user.password === password){
             res.json("Done!")
         }else{
-            res.json("Password is incorrect")
+            res.json("Password is Incorrect")
         }
     }else{
         res.json("No recorded exceted")
